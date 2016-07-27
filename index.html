@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang = "en">
 
-
 	<head>
 		<meta charset = "utf-8" />
 		<title>
@@ -46,6 +45,9 @@
       </div>
 
     </div><!-- /.container -->
+    <script>
+    import java.util.Random;
+    </script>
     <script text="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js">
     </script>
      <script text="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js">
@@ -71,11 +73,13 @@
         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
       <div class="modal-body">
-      string hello [1][5] = {{"/Users/viviphan/Downloads/potato1.jpg", "/Users/viviphan/Downloads/potato2.jpg", "/Users/viviphan/Downloads/potato3.jpg", "/Users/viviphan/Downloads/potato1.jpg"}, {"/Users/viviphan/Downloads/potatosss.gif"}};
-      public static int getRandom(int[] array) {
-    int rnd = new Random().nextInt(array.length);
-    return array[rnd];
-}
+      <script>
+      
+      String[] hello = {"/Users/viviphan/Downloads/potato1.jpg", "/Users/viviphan/Downloads/potato2.jpg", "/Users/viviphan/Downloads/potato3.jpg", "/Users/viviphan/Downloads/potato1.jpg"}, {"/Users/viviphan/Downloads/potatosss.gif"};
+      String random = (hello[new Random().nextInt(hello.length)]);
+      
+      </script>
+      
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
