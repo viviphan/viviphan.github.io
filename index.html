@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
+
+
 	<head>
 		<meta charset = "utf-8" />
 		<title>
@@ -69,8 +71,11 @@
         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
       <div class="modal-body">
-      string hello [5][1] = {{"/Users/viviphan/Downloads/potato1.jpg"}, {"/Users/viviphan/Downloads/potato2.jpg"}, {"/Users/viviphan/Downloads/potato3.jpg"}, {"/Users/viviphan/Downloads/potato1.jpg"}, {""}};
-      serial.print(hello[random.randint(0, 4)][1]
+      string hello [1][5] = {{"/Users/viviphan/Downloads/potato1.jpg", "/Users/viviphan/Downloads/potato2.jpg", "/Users/viviphan/Downloads/potato3.jpg", "/Users/viviphan/Downloads/potato1.jpg"}, {"/Users/viviphan/Downloads/potatosss.gif"}};
+      public static int getRandom(int[] array) {
+    int rnd = new Random().nextInt(array.length);
+    return array[rnd];
+}
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
