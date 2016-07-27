@@ -76,7 +76,8 @@
       <script>
       
       String[] hello = {"/Users/viviphan/Downloads/potato1.jpg", "/Users/viviphan/Downloads/potato2.jpg", "/Users/viviphan/Downloads/potato3.jpg", "/Users/viviphan/Downloads/potato1.jpg"}, {"/Users/viviphan/Downloads/potatosss.gif"};
-      String random = (hello[new Random().nextInt(hello.length)]);
+      int idx = new Random().nextInt(hello.length);
+	String random = (hello[idx]);
       
       </script>
       
